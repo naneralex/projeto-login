@@ -17,6 +17,11 @@ Grandes telas: acima de 1200px
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
 
+    div#formulario > p, div#formulario > form {
+        margin: auto;
+        width: 90%;
+    }
+
     section#login {
         width: 80vw;
         height: 280px;
@@ -40,6 +45,15 @@ Grandes telas: acima de 1200px
 
      body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+
+    div#formulario > p {
+        padding-left: 28px;
+        width: 90%;
+    }
+    div#formulario > form {
+        margin: auto;
+        width: 90%;
     }
     
     section#login {
